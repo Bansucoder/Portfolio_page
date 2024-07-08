@@ -1,0 +1,285 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    background-color: yellowgreen;
+    background-repeat: no-repeat;
+    padding-bottom: 40px;
+}
+.nav-bar{
+    display: flex;
+    justify-content: space-evenly;
+}
+.nav-logo{
+    position: relative;
+    left: -200px;
+    font-size: 2.5rem;
+    font-family: Comic Sans MS,cursive,sans-serif;
+    color: rgb(19, 18, 18);
+    font-weight: bold;
+    margin-top: 40px;
+}
+.nav-sec{
+    padding-top: 35px;
+}
+.nav-sec a{
+    padding: 30px;
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+.nav-sec a:hover{
+    color: black;
+}
+.content{
+    background-color: whitesmoke;
+    padding-bottom: 60px;
+    text-align: left;
+    display: flex;
+    border-bottom: 8px solid yellowgreen;
+}
+.image{
+    padding-top: 100px;
+    padding-left: 100px;
+    border-radius: 50%;
+}
+.name p{
+    padding-top: 200px;
+    padding-left: 350px;
+    font-size: 2.4rem;
+    font-family: brush script MT;
+    color: lightsalmon;
+}
+#p2{
+    font-size: 3.5rem;
+    padding-top: 0px;
+    font-family: segoe script;
+    color: slateblue;
+}
+#p3{
+    font-size: 3.5rem;
+    padding-top: 0px;
+    font-family: segoe script;
+    color: palevioletred;
+}
+.name button{
+    height: 3.3rem;
+    width: 170px;
+    margin-left: 520px;
+    margin-top: 10px;
+    text-align: center;
+    background-color: yellowgreen;
+    font-size: 1.5rem;
+    padding: 6px 16px;
+    border: 3px solid yellowgreen;
+    cursor: pointer;
+    border-radius: 30px;
+    color: black;
+}
+.aboutme{
+    display: flex;
+    background-color: pink;
+    padding-bottom: 20px;
+    border-bottom: 8px solid black;
+}
+.image2{
+    padding-top: 20px;
+}
+.myname p{
+    padding-top: 180px;
+    padding-left: 460px;
+    font-size: 2.5rem;
+    color: rgb(214, 81, 214);
+}
+.myname h6{
+   padding-top: 35px;
+   padding-left: 520px;
+   font-size: 1.4rem;
+   color: rgb(214, 81, 214);
+}
+.aboutme #btn1{
+    height: 3rem;
+    width: 200px;
+    margin-left: -220px;
+    margin-top: 380px;
+    text-align: center;
+    font-size: 1rem;
+    padding: 6px 16px;
+    border: 3px solid rgb(214, 81, 214);
+    cursor: pointer;
+    border-radius: 0px;
+    color: rgb(214, 81, 214);
+}
+.aboutme2{
+    padding-top: 4px;
+    padding-left: 650px;
+    font-size: 3rem;
+    color: rgb(214, 81, 214);
+    
+
+}
+.content2{
+    background-color: black;
+    padding-bottom: 5%;
+    border-bottom: 8px solid yellowgreen;
+}
+.aboutme2 h6{
+    padding-top: 5%;
+    margin-left: -650px;
+    color: pink;
+    font-size: 1.5rem;
+    text-align: center;
+    padding-right: 40px;
+    padding-bottom: 5%;
+    background-color: rgb(214, 81, 214);
+    padding-left: 20px;
+} 
+.content2 p{
+    font-size: 4rem;
+    padding-left: 11cap;
+    font-family: lucida handwriting;
+    color: lightsalmon;
+}
+.skill1{
+    padding-top: 5%;
+    font-size: 2.5rem;
+    padding-left: 6cap;
+}
+#skill1{
+    text-decoration: underline;
+    color: rgb(214, 81, 214);
+}
+.skill2{
+    padding-top: 5%;
+    font-size: 2.5rem;
+    padding-left: 23cap;
+}
+#skill2{
+    text-decoration: underline;
+    color: rgb(214, 81, 214);
+}
+.skill{
+    display: flex;
+}
+.list{
+    padding-top: 15%;
+    font-size: 1.5rem;
+    color: pink;
+}
+.content3 p{
+    padding-top: 1%;
+    font-size: 4rem;
+    padding-left: 43%;
+    font-family: papyrus;
+    font-weight: 900;
+    color: lightsalmon;
+}
+.project{
+    display: flex;
+    padding-top: 5%;
+}
+.project p{
+    font-size: 1.2rem;
+    padding-left: 0%;
+    border: 3px solid black;
+    margin-left: 2.5%;
+    margin-bottom: 5%;
+    font-family: cursive;
+    padding-top: 0%;
+    margin-top: 1%;
+}
+.project1{
+    display: flex;
+    padding-top: 2%;
+}
+.project1 p{
+    font-size: 1.2rem;
+    padding-left: 0%;
+    border: 3px solid black;
+    margin-left: 2.5%;
+    margin-bottom: 5%;
+    margin-top: 4%;
+    padding-top: 0%;
+    font-family: cursive;
+}
+.project2{
+    display: flex;
+    padding-top: 5%;
+}
+.project2 p{
+    font-size: 1.5rem;
+    padding-left: 0%;
+    border: 3px solid black;
+    margin-left: 2.5%;
+    margin-bottom: 6%;
+    margin-top: 5%;
+    padding-top: 0%;
+    font-family: cursive;
+}
+.content3{
+    border-bottom: 8px solid yellowgreen;
+    background-color: whitesmoke;
+}
+.content4 p{
+    padding-top: 1%;
+    font-size: 4rem;
+    padding-left: 36%;
+    font-family: papyrus;
+    font-weight: 900;
+    color: lightsalmon;
+}
+.details{
+    padding-left: 36%;
+   
+}
+#fname{
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 5%;
+   border: 4px solid rgb(214, 81, 214);
+   color: rgb(209, 21, 134);
+}
+#num{
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 5%;
+    border: 4px solid rgb(214, 81, 214);
+    color: rgb(209, 21, 134);
+}
+#email{
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 5%;
+    color: white;
+    border: 4px solid rgb(214, 81, 214);
+    color: rgb(209, 21, 134);
+}
+.details button{
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: 5%;
+    margin-left: 15%;
+    border-radius: 35%;
+    padding: 6px 16px;
+    color: white;
+    background-color: rgb(214, 81, 214);
+    border-color: rgb(214, 81, 214);
+}
+.copyright{
+    text-align: center;
+    font-size: 1.6rem;
+    background-color: yellowgreen;
+    padding: 6px 0px 20px 0px;
+    margin-top: 3px;
+}
+.logos{
+    padding-top: 5%;
+    text-align: center;
+    font-size: 2.2rem;
+    color: rgb(214,81,214);
+}
+.logos i:hover{
+    transform: scale(1.2);
+}
